@@ -36,6 +36,18 @@ eleventyExcludeFromCollections: true
 				{% endfor %}
 			</ul>
 		</section>
+		<section>
+			<h2>Stargazers</h2>
+			<ul>
+				{% for stargazer in stargazers %}
+				<li>
+					<a href="https://github.com/{{ stargazer }}">
+						{{ stargazer }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</section>
 	</main>
 </body>
 </html>

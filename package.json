@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-	"dev": "eleventy --serve"
+    "dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/BenDMyers/ReactJSDallas_Beginners_Guide_to_Eleventy#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "node-fetch": "^2.6.1"
   }
 }
