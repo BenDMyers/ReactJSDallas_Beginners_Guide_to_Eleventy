@@ -1,0 +1,41 @@
+---
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+		<h1>Pets of ReactJS Dallas</h1>
+		<section>
+			<h2>Cats</h2>
+			<ul>
+				{% for cat in collections.cats %}
+				<li>
+					<a href="{{ cat.url }}">
+						{{ cat.data.petName }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h2>Dogs</h2>
+			<ul>
+				{% for dog in collections.dogs %}
+				<li>
+					<a href="{{ dog.url }}">
+						{{ dog.data.petName }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</section>
+	</main>
+</body>
+</html>

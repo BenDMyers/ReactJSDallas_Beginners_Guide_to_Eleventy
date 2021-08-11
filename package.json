@@ -1,0 +1,24 @@
+{
+  "name": "reactjsdallas_beginners_guide_to_eleventy",
+  "version": "1.0.0",
+  "description": "## Who am I?",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+	"dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenDMyers/ReactJSDallas_Beginners_Guide_to_Eleventy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenDMyers/ReactJSDallas_Beginners_Guide_to_Eleventy/issues"
+  },
+  "homepage": "https://github.com/BenDMyers/ReactJSDallas_Beginners_Guide_to_Eleventy#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
