@@ -1,5 +1,14 @@
 # ReactJS Dallas: The Beginner's Guide to Eleventy
 
+## Setup and Running the Project
+
+```bash
+git clone https://github.com/BenDMyers/ReactJSDallas_Beginners_Guide_to_Eleventy.git
+cd ReactJSDallas_Beginners_Guide_to_Eleventy
+npm install
+npm run dev
+```
+
 ## Who am I?
 
 - [Ben Myers](https://benmyers.dev)
@@ -22,5 +31,5 @@ This is going to feel pretty different from web *apps* you might have built befo
 - [X] Create a template and add a layout
 - [X] Create more templates
 - [X] Add some data
-- [] Global data
-- [] Host on Netlify
+- [X] Global data
+- [X] Host on Netlify
